@@ -5,6 +5,7 @@ USER root
 RUN pip install tqdm==4.15.0 \
                 beautifulsoup4==4.6.0
 
-RUN mkdir /home/scratch
+RUN mkdir /scratch
+RUN mkdir /mnt/scratch
 
 CMD ["bash"]
