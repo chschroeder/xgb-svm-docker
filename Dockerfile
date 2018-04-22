@@ -1,4 +1,4 @@
-FROM chschroeder/text-classification-plotting:0.5.5
+FROM chschroeder/text-classification-plotting:0.7.0
 
 USER root
 
